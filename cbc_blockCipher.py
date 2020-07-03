@@ -29,7 +29,8 @@ def blockCipher(plaintext,IV,key):
         print(bin(item)[2:].zfill(8), end=" ")
     print("\n")
     return CIPTEXT
-
+    
+########### main() ###############################
 def main():
     cipherText = blockCipher("hello",201,197)
 
